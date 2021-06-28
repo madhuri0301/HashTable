@@ -15,9 +15,8 @@ namespace HashTableAndBinarySearchTree
                 hash.Add(key, word);
                 key++;
             }
-            Operation operation = new Operation();
-            operation.Frequency(hash);
-
+            Operation operation = new Operation();           
+            operation.Remove(hash, "avoidable");
         }
     }
 }
